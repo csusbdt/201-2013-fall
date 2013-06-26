@@ -112,9 +112,9 @@ Unlike C++, programs written in assembly language
 are neither portable across different processors nor across different operating systems.
 Before high-level languages, the only languages that existed were assembly languages.
 
-The following is an example program written in assembly language. 
-When the program runs, it writes "hello\n" into the standard output stream.  
-This program is written specifically for the Linux operating system. 
+The following is an example program written in assembly language.
+When the program runs, it writes "hello\n" into the standard output stream.
+This program is written specifically for the Linux operating system.
 
 ````
 # This program writes "hello" to  
