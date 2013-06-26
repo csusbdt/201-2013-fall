@@ -148,7 +148,7 @@ movl $hello, %ecx    # When the operating system loads this program into main
                      # to make it a running process, a numerical representation
                      # of the string "hello" will be placed into memory and the
                      # address of the first character will be placed in
-                     # written into the first argument of this instruction
+                     # the first argument of this instruction
                      # (which is also stored in main memory).  This numerical
                      # representation includes 5 bytes, one for each character,
                      # followed by a sixth byte that contains zero.
