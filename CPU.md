@@ -33,7 +33,7 @@ Sequences of bits are used to represent numbers in the binary representation sys
 For example, a sequence of 2 bits represent the values 0 through 3 as follows.
 
 | binary | decimal |
-|*------*|---------|
+|:------:|:-------:|
 | 00     | 0       |
 | 01     | 1       |
 | 10     | 2       |
@@ -43,7 +43,7 @@ Sequences of 4 bits have 16 possible states.
 These states can be represented in decimal form (base 10) and in hexadecimal form (base 16) as follows.
 
 | binary | decimal | hexadecimal |
-|--------|---------|-------------|
+|:------:|:-------:|:-----------:|
 | 0000   | 0       | 0           |
 | 0001   | 1       | 1           |
 | 0010   | 2       | 2           |
@@ -66,7 +66,7 @@ Using decimal notation, bytes can take on values in the range [0, 255].
 Using hexadecimal notation, bytes can take on values in the range [0, FF].  
 
 |   binary  | decimal | hexadecimal |
-|-----------|---------|-------------|
+|:---------:|:-------:|:-----------:|
 | 0000 0000 | 0       | 0           |
 | 0000 0001 | 1       | 1           |
 | 0000 0010 | 2       | 2           |
