@@ -2,9 +2,9 @@
 
 ## Von Neumann Architecture
 
-A computer is divided into 2 main parts: memory and a central processing unit (CPU).  
-When the computer runs, the CPU executes machine instructions that are stored in memory. 
-When an instruction executes, it may read and write data from and to memory. 
+A computer is divided into 2 main parts: memory and a central processing unit (CPU).
+When the computer runs, the CPU executes machine instructions that are stored in memory.
+When an instruction executes, it may read and write data from and to memory.
 This approach to computer design is called the Von Neumann Architecture.
 
 ## Computer Programs
