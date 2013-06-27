@@ -43,9 +43,8 @@ Use the same process as Linux.
 
 If you are working under Windows, you should install the git client,
 which you can get from [the Git website](http://git-scm.com/).
+(The default option settings are OK.)
 
-- Go to http://git-scm.com/download/win and save the exe file on your desktop.
-- Double click the exe file and go through the install wizard. (The default option settings are OK.)
 - Open the Git Bash program and make sure to cd into your home directory.
 - Type the command ssh-keygen -t rsa -C "your_email@example.com" to create your SSH pub key
 - Optionally enter a passphrase and write it down for later use.
