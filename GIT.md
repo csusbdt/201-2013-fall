@@ -52,3 +52,19 @@ which you can get from [the Git website](http://git-scm.com/).
 - Enter the command  clip < ~/.ssh/id_rsa.pub to copy the contents of your pub key file into the clipboard.
 - Paste the contents into an email and send that email to Dr. Turner.
 
+## Learning Git
+
+In addition to setting up git on your system,
+you will also need to learn how to use it.
+
+[TryGit](http://try.github.io/levels/1/challenges/1)
+is an excellent interactive tutorial that you can use
+to get started.  This tutorial has you create a github
+account and practie git commands that interact with your account.
+In CSE 201, you will not use GitHub; instead, you will
+push commits into a private remote repository that only
+you, me and Gerren Willis has access to.
+Each time you complete an assignment,
+you should commit your work into a local repository
+and then push changes to the remote repository.
+
