@@ -1,4 +1,4 @@
-# Hello Program
+# Hello program
 
 ## Overview
 

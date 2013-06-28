@@ -1,4 +1,4 @@
-# What Is a Computer?
+# What is a computer?
 
 ## Von Neumann Architecture
 
@@ -7,7 +7,7 @@ When the computer runs, the CPU executes machine instructions that are stored in
 When an instruction executes, it may read and write data from and to memory.
 This approach to computer design is called the Von Neumann Architecture.
 
-## Computer Programs
+## Computer programs
 
 Computer programs are collections of data and machine instructions 
 that are loaded into memory and executed by the CPU. 
@@ -19,12 +19,12 @@ Processes will generally get data from input devices
 -- such as keyboards, mouses and network interfaces -- 
 as well as from the executable files from which they were loaded.
 
-## Operating System
+## Operating system
 
 When a computer starts up, it loads and runs a program called the operating system. 
 The operating system manages the execution of other programs.
 
-## Computer Memory
+## Computer memory
 
 The smallest piece of information that can be represented in a computer is a bit.
 A bit can be in one of 2 states: off (zero) or on (one).
@@ -89,7 +89,7 @@ The position of a byte in memory is referred to as an address or location.
 In a 32-bit computer, the memory addresses are represented using 4 bytes.
 In a 64-bit computer, the memory addresses are represented using 8 bytes.
 
-## Central Processing Unit
+## Central processing unit
 
 The CPU repeats a fetch-execute cycle in which machine instructions
 are sequentially read from memory and executed.
@@ -103,7 +103,7 @@ On a 32-bit computer, the cycle roughly includes the following steps:
 - The instruction is executed.
 - Depending on the instruction, data in registers may be written into memory.
 
-## Assembly Language
+## Assembly language
 
 As opposed to a high-level language such as C++,
 assembly language is a low-level language

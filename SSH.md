@@ -1,4 +1,4 @@
-# How to Work Remotely Using SSH
+# How to work remotely using SSH
 
 You can use SSH (a communications protocol) to connect to our lab machines from outside the lab.  
 To do this, you need to have an SSH client installed on your computer.  

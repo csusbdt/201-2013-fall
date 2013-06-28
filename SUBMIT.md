@@ -1,4 +1,4 @@
-# How to Submit Work
+# How to submit work
 
 There are 2 ways that you can submit work in this course:
 by email or by pushing into a remote git repository.

@@ -1,4 +1,4 @@
-# How to Use Git in This Course
+# How to use Git in this course
 
 To you Git in this course, you need to send to me
 the public key that your Git client program uses
@@ -49,7 +49,7 @@ which you can get from [the Git website](http://git-scm.com/).
 
 Use the same process as Linux to get the public key and send to the instructor.
 
-## From a Windows Computer
+## From a Windows computer
 
 If you are working under Windows, you should install the git client,
 which you can get from [the Git website](http://git-scm.com/).
@@ -70,7 +70,7 @@ Copy the public key file into the clipboard.
 Paste the clipboard contents into an email
 and send to the instructor with your name and student id.
 
-## Multiple Computers
+## Multiple computers
 
 If you want to interact with git from more than one machine,
 you need to make sure that the private and public key files 
