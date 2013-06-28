@@ -39,12 +39,15 @@ The file will look something like the following.
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDymdGr+QUAhvClI/7c8+ulzSxEH783b9tatMlB4ou53YgOTYrsJEN2rLilpgPeM6pxHt3EtD5aVO8boklZmzpwy/eDHSq8Dxzdhv+lxzv8KmRm8wX7vkBgezrQHoBcjWDyiztH/2MoE5uL42yT3goGPBXsbx/rq0QrwUxnzqNMjJ0R2HsWqF5VV/t0G0mJfgZVuCVBokSMmmuKof1KtUk+R0zTlxCMUhc7EMWf39gVXc6+JWJJqthV71VY8mX4y0CSsNa0/ILMIlyUV7kd4OLPi7qwjAlA292tsh+n3McaQAwWIuKJmO6gIq5rAvDsiIXbKQGaoVd4Sb6ABUuMgVo9 turner@turner-retina.home
 ````
 
-Copy this text and email it to dturner@csusb.edu
+Copy this text and email it to the instructor 
 with your name and student id.
 
 ## From OS X
 
-Use the same process as Linux.
+If you are working under Windows, you should install the git client,
+which you can get from [the Git website](http://git-scm.com/).
+
+Use the same process as Linux to get the public key and send to the instructor.
 
 ## From a Windows Computer
 
@@ -56,16 +59,16 @@ Open the Git Bash program and cd into your home directory.
 
     cd ~
 
-Create your SSH keys. (Setting a passphrase is optional.)
+Create your SSH keys. In the following, replace _your-name_ with your name. Setting a passphrase is optional.
 
-    ssh-keygen -t rsa -C "your_email@example.com"
+    ssh-keygen -t rsa -C "Your-name"
 
 Copy the public key file into the clipboard.
 
     clip < ~/.ssh/id_rsa.pub
 
 Paste the clipboard contents into an email
-and send to dturner@csusb.edu with your name and student id.
+and send to the instructor with your name and student id.
 
 ## Multiple Computers
 
@@ -89,7 +92,7 @@ To avoid synchronization problems, adhere to the following 2 rules.
 
 ## Learning Git
 
-In addition to setting up git on your system,
+In addition to setting up Git on your system,
 you will also need to learn how to use it.
 
 [TryGit](http://try.github.io/levels/1/challenges/1)
