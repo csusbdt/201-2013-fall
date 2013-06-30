@@ -47,6 +47,8 @@ to the remote repository server.
 However, if one of these actors gets your public key,
 they can not authenticate as you because
 the private key is needed for this.
+To understand this better,
+you should read about public-private key encryption.
 
 ## Setup instructions
 
