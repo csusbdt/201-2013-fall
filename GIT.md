@@ -26,29 +26,19 @@ your remote repository.
 
 ## Security
 
-The process we use to establish authentication
-with the remote repository is more secure
-than sending a password with email over the Internet.
+It's safer to email public keys than passwords.
+If someone gets your password, they can
+authenticate as you;
+if they get your public key, they can not.
 
-To understand this, you need to first understand that
-your email can be read by people who work for the 
-email service providers of the sender and receiver.
-They can also be read by people who work for the
-Governments with electronic surveillance programs,
-such the United States and China.
-Finally, if a criminal has compromised the system
-used by one of the email service providers,
-then they can read your emails.
-
-If we transmitted a password by email,
-then one of these actors can
-potentially authenticate as you
-to the remote repository server.
-However, if one of these actors gets your public key,
-they can not authenticate as you because
-the private key is needed for this.
-To understand this better,
-you should read about public-private key encryption.
+The danger is that a person emails their public key
+while pretending to be you.
+To mitigate this threat,
+We will accept only a single public key from you.
+If you want to access your repository from
+multiple computers,
+you need to copy your public-private key pair
+to all these computers.
 
 ## Setup instructions
 
@@ -91,7 +81,9 @@ Open the Git Bash program and cd into your home directory.
 
     cd ~
 
-Create your SSH keys. In the following, replace _your-name_ with your name. Setting a passphrase is optional.
+Create your SSH keys. 
+In the following, replace _your-name_ with your name. 
+I recommend to not set a passphrase -- just press enter when prompted for one.
 
     ssh-keygen -t rsa -C "Your-name"
 
