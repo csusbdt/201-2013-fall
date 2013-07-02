@@ -14,6 +14,10 @@ After you receive the username, you will be able
 to clone the empty repository and use this to
 submit your work and track changes to the
 source code you develop.
+The command you will use to clone your repository will
+look like the following.
+
+    git clone username@web1.ias.csusb.edu:201.git
 
 Each time you complete an assignment,
 you should commit your work into a local repository
