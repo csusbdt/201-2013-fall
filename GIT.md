@@ -26,19 +26,32 @@ your remote repository.
 
 ## Security
 
-It's safer to email public keys than passwords.
+Email is not completely private.
+There are a number of different actors who can read
+emails, including employees of the companies that
+provide email service to the sender and receiver,
+workers who are part of government surveillance activities
+(such as those who work for the US National Security Agency),
+and any criminals who may have compromized systems of one of the
+email service providers.
+
+With this in mind,
+it's safer to email public keys than passwords.
 If someone gets your password, they can
 authenticate as you;
 if they get your public key, they can not.
 
-The danger is that a person emails their public key
-while pretending to be you.
+One danger with sending public keys by email
+is that an imposter
+could send the recipient their own public key.
 To mitigate this threat,
-We will accept only a single public key from you.
-If you want to access your repository from
+we will accept only a single public key.
+Consequently, if you want to access your repository from
 multiple computers,
 you need to copy your public-private key pair
 to all these computers.
+See the section _Multiple computers_ below
+to see how to do this.
 
 ## Setup instructions
 
@@ -94,7 +107,7 @@ Copy the public key file into the clipboard.
 Paste the clipboard contents into an email
 and send to dturner@csusb.edu with your name and student id.
 
-### Multiple Computers
+### Multiple computers
 
 If you want to interact with git from more than one machine,
 you need to make sure that the private and public key files 
