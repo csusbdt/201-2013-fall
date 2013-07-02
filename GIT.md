@@ -45,7 +45,7 @@ One danger with sending public keys by email
 is that an imposter
 could send the recipient their own public key.
 To mitigate this threat,
-we will accept only a single public key.
+we will accept only a single public key for each repository.
 Consequently, if you want to access your repository from
 multiple computers,
 you need to copy your public-private key pair
