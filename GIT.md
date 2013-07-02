@@ -82,7 +82,8 @@ Copy this text and email it to dturner@csusb.edu with your name and student id.
 If you are working under OS X, you should install the git client,
 which you can get from [the Git website](http://git-scm.com/).
 
-Use the same process as Linux to get the public key and send to the instructor.
+Use the same process as for Linux to get the public key and send it with your name
+and student id to the instructor.
 
 ### From Windows
 
