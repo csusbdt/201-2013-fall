@@ -15,7 +15,8 @@ to clone the empty repository and use this to
 submit your work and track changes to the
 source code you develop.
 The command you will use to clone your repository will
-look like the following.
+look like the following, with _username_
+replaced by the username we email to you.
 
     git clone username@web1.ias.csusb.edu:201.git
 
