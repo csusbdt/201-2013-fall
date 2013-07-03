@@ -139,16 +139,15 @@ To avoid synchronization problems, adhere to the following 2 rules.
 
 In addition to setting up Git on your system,
 you will also need to learn how to use it.
-
-[TryGit](http://try.github.io/levels/1/challenges/1)
-is an excellent interactive tutorial that you can use
-to get started.  This tutorial has you create a Github
-account and practice git commands that interact with this account.
-However, in this course, you will not use GitHub;
-instead, you will push commits into a private remote
-repository that only you and the instructors have access to.
-
-There are other free tutorials, books and documentation that
-you should make use of to better learn Git.
-These are easily located on the Web.
+While you are waiting for me to create your repository,
+you should complete the
+[TryGit](http://try.github.io/levels/1/challenges/1) tutorial.
+After this, familiarize yourself with
+[the documentation for Git](http://git-scm.com/doc)
+and [the Git book](http://git-scm.com/book).
+I recommend that you read a few chapters of the
+Git book and then carefully read 
+[Chapter 9 on Git Internals](http://git-scm.com/book/en/Git-Internals).
+The Git Internals chapter provides essential concepts
+and details needed to understand Git.
 
