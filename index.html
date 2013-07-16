@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>CSE 201</title>
+  <style>
+  .outer {
+    list-style-type: none;
+  }
+
+  .inner li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 20px;
+    width: 4em;
+  }
+    .inner li span {
+      display: none; 
+    }
+  @media (max-width: 600) {
+    .inner li {
+      display: block;
+    }
+    .inner li span {
+      display: inline; 
+      padding-right: 1em;
+    }
+    .table-header { 
+      display: none; 
+    }
+  }
+  </style>
+</head>
+
+<body>
+
+<ul class="outer">
+  <li class="table-header">
+    <ul class="inner">
+      <li>xxxxxx</li>
+      <li>yyyyyy</li>
+      <li>zzzzzz</li>
+    </ul>
+  </li>
+
+  <li>
+    <ul class="inner">
+      <li><span>xxxxxx</span>123</li>
+      <li><span>yyyyyy</span>456</li>
+      <li><span>zzzzzz</span>789</li>
+    </ul>
+  </li>
+
+  <li>
+    <ul class="inner">
+      <li><span>xxxxxx</span>123</li>
+      <li><span>yyyyyy</span>456</li>
+      <li><span>zzzzzz</span>789</li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+
+</html>
+
