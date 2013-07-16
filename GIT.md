@@ -46,9 +46,9 @@ If someone gets your password, they can
 authenticate as you;
 if they get your public key, they can not.
 
-One danger with sending public keys by email
+However, one danger with sending public keys by email
 is that an imposter
-could send the recipient their own public key.
+can send the recipient their own public key.
 To mitigate this threat,
 we will accept only a single public key for each repository.
 Consequently, if you want to access your repository from
