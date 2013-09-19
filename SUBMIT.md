@@ -18,7 +18,7 @@ if you want to submit your work with Git.
 ## Email Submission
 
 To submit work by email, send your files to
-Christina Torres at torrc321@coyote.csusb.edu,
+Christina Torres at torrc321@coyote.csusb.edu
 and cc David Turner at dturner@csusb.edu.
 Make sure you include your name and the assignment ID in the email message.
 
