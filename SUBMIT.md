@@ -17,18 +17,18 @@ if you want to submit your work with Git.
 
 ## Email Submission
 
-To submit work by email, send your files TO
-"Christina Torres" <torrc321@coyote.csusb.edu>
-and CC "David Turner" <dturner@csusb.edu>.
+To submit work by email, send your files to
+Christina Torres at torrc321@coyote.csusb.edu
+and cc David Turner at dturner@csusb.edu.
 Make sure you include your name and the assignment ID in the email message.
 
 ## Git Submission
 
 After pushing your local repository to your remote repository,
 notify Christina and me that you have submitted the assignment by Git.
-Send this email notification TO
-"Christina Torres" <torrc321@coyote.csusb.edu>
-and CC "David Turner" <dturner@csusb.edu>.
+Send this email notification to
+Christina Torres at torrc321@coyote.csusb.edu
+and cc David Turner at dturner@csusb.edu.
 Make sure you include your name and the assignment ID in the email message.
 Do not attach any files to your email;
 we will access your work from the remote Git repository.
