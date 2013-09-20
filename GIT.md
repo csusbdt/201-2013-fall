@@ -113,6 +113,15 @@ Copy the public key file into the clipboard.
 Paste the clipboard contents into an email
 and send to dturner@csusb.edu with your name and student id.
 
+### From Linux
+
+You should try to follow the procedure described above for Linux computers in JB 359.
+
+If you are receiving the message _Agent admitted failure to sign using the key_, then try running
+ssh-add to load your keys into the SSH agent.
+
+    ssh-add
+
 ### Multiple computers
 
 If you want to interact with git from more than one machine,
