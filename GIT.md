@@ -65,12 +65,19 @@ to see how to do this.
 If you are using the computers in JB 359 (or 358),
 then git is already installed for you.
 However, you will need to send me the contents of the
-file that contains your SSH public key.
-You can get this file from the following location.
+file that contains your SSH public key,
+which should be located in the following location.
 
     ~/.ssh/id_rsa.pub
 
-To see its contents, use the cat command as follows.
+If you do not see this file, then you need to generate SSH keys.
+To do this, run the following, replacing _your-name_ with your name.
+Also, I recommend to NOT set a passphrase -- just press enter when prompted for one.
+
+    ssh-keygen -t rsa -C "Your-name"
+
+To see the contents of the public key file,
+use the cat command as follows.
 
     cat ~/.ssh/id_rsa.pub
 
@@ -81,6 +88,8 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDymdGr+QUAhvClI/7c8+ulzSxEH783b9tatMlB4ou5
 ````
 
 Copy this text and email it to dturner@csusb.edu with your name and student id.
+
+If you did not see 
 
 ### From OS X
 
@@ -159,4 +168,3 @@ Git book and then carefully read
 [Chapter 9 on Git Internals](http://git-scm.com/book/en/Git-Internals).
 The Git Internals chapter provides essential concepts
 and details needed to understand Git.
-
